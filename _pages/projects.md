@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Below are a few sample research projects from my time at UW-Madison and UIUC. 
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+# display_categories: [work, fun]
 horizontal: false
 ---
 
