@@ -11,22 +11,17 @@
       institution: University of Illinois, Urbana, Illinois, USA
       year: 2024 (expected)
       description:
-        - Description 1. Advisor - Harley T. Johnson, Ph.D.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Advisor - Harley T. Johnson, Ph.D.
     - title: Master's Degree, Mechanical Engineering
       institution: University of Wisconsin, Madison, Wisconsin, USA
       year: 2010
       description:
-        - Description 1. Advisor - Frank Pfefferkorn, Ph.D.; Kevin Turner, Ph.D.
-        - Description 2.
+        - Advisor - Frank Pfefferkorn, Ph.D.; Kevin Turner, Ph.D.
     - title: Bachelor's Degree, Mechanical Engineering
       institution: University of Wisconsin, Madison, Wisconsin, USA
       year: 2008
       description:
-        - Description 1. Dean's List, all eight semesters
+        - Dean's List, all eight semesters
 
 - title: Research Experience
   type: time_table
@@ -35,19 +30,13 @@
       institution: University of Minnesota Twin Cities, Minneapolis, MN, USA
       year: 2023
       description:
-        - Description 1. Developing approach to predict coefficients for grain boundary energy analytical model using canonical properties
-        - Description 2. Extracted molecular simulation results in OpenKIM (interatomic potential repository) and Materials Project (repository of experimental and DFT results)
-        - Description 3. Data collection and analysis performed in Python
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Developing approach to predict coefficients for grain boundary energy analytical model using canonical properties
+        - Extracted molecular simulation results in OpenKIM (interatomic potential repository) and Materials Project (repository of experimental and DFT results)
+        - Data collection and analysis performed in Python
     - title: Fellowship, National Science Foundation Research Traineeship (NRT)
       institution: University of Illinois Urbana-Champaign
       year: 2022-2023
       description:
-        - Description 1.
-        - Description 2.
 
 
 - title: Honors and Awards
@@ -72,16 +61,14 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1. Computational Mechanics
+    - title: Computational Mechanics
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Atomistic Simulations
+            - Strength
+            - Plasticity
+    - title: Optimization methods
       items:
-        - Description 1.
-        - Description 2.
+        - Topology Optimization
+        - Interatomic Potentials
+    - title: Data Science
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
