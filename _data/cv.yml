@@ -33,10 +33,60 @@
         - Developing approach to predict coefficients for grain boundary energy analytical model using canonical properties
         - Extracted molecular simulation results in OpenKIM (interatomic potential repository) and Materials Project (repository of experimental and DFT results)
         - Data collection and analysis performed in Python
-    - title: Fellowship, National Science Foundation Research Traineeship (NRT)
+    - title: Fellowship, National Science Foundation Research Traineeship (NRT); Research Assistant
       institution: University of Illinois Urbana-Champaign
       year: 2022-2023
       description:
+        - Collaboration with Sandia National Laboratory 
+        - Performed optimization of optically broadband shuttering elements with optical phase change materials and structures using machine learning
+        - Used neural networks to aid in solving a dual objective function, multi-physics inverse-design problem while considering manufacturing constraints
+        - Utilized COMSOL Multiphysics with Illinois Campus Cluster Program for coupled electromagnetic/thermal finite element simulations
+        - Dataset creation/post-processing performed in Python, machine learning performed with Pytorch
+    - title: Research Assistant
+      institution: University of Wisconsin - Madison
+      year: 2008-2010
+      description:
+        - Designed, fabricated and tested a nickel-based 4-wire resistance temperature detector (RTD) heat flux sensor on an individual copper pin for heat transfer studies within a micro-pin-fin heat sink
+        - Performed detailed analysis and sensitivity study using Matlab to optimize sensor design
+        - Fabricated sensors on custom copper wafers using lithographic procedures in the Wisconsin Center for Applied Microelectronics (WCAM) 
+        - Utilized micro-end-milling in LAMSML lab to machine 3D pin structure after sensor creation
+        - Collaborated with other graduate students to calibrate and characterize sensors using Nd:YAG laser system (LAMSML laboratory) and LabVIEW data acquisition system
+        - Designed and fabricated components for data acquisition setup, custom pogo pin holder, copper wafer adapter for spin coating chuck, wafer holder for polishing process
+        - Fabricated heat sinks using micro-end-milling
+        - Technical writing - First author on two peer-reviewed journal articles
+    - title: Undergraduate Research Fellowship - Engine Research Center
+      institution: University of Wisconsin - Madison
+      year: 2007
+      description: 
+        - Worked at characterizing a Denso piezo-actuated diesel fuel injector at pressures up to 26,100 psi
+        - Gained experience with fuel preparation for high pressure injection, including filters, high pressure pumps and common rail systems
+        - Worked with data acquisition systems and Bosch bench to obtain fuel injection rate curves
+
+- title: Industry Experience
+  type: time_table
+  contents: 
+    - title: Mechanical Engineer
+      institution: Startup company specializing in nuclear technology
+      year: 2017 - 2020
+      description:
+        - Start-up company producing high-yield neutron sources for medicine, defense and energy sectors
+        - Lead mechanical engineer on improvised explosive device (IED) detection program. Performed detailed design and Finite Element Analysis (FEA) using Solidworks
+        - IED detection program design work included structural frame/chassis (FEA), vacuum design with cryo pumps, pressure vessel design for SF6 retention, accelerator column redesign (robustness, resistor selection, detailed design), cooling budget/chiller specification
+        - Worked with engineering team to perform detailed neutron generator design work (CAD, technical drawings, FEA) for molybdenum-99 production facility
+        - Performed updates to tritium retention and permeation analysis using Python
+
+    - title: Senior Design Engineer
+      institution: Contract design and manufacturing company 
+      year: 2010 - 2017
+      description:
+        - Worked for a $2B contract design and manufacturing company focused on healthcare/life sciences, industrial/commercial, aerospace/defense, communications
+        - Designed products, procured prototypes, tested requirements, and communicated technical details to customer for projects in healthcare and industrial/commercial sectors
+        - Utilized rapid prototyping, including Fused Deposition Modeling (FDM), Objet 3D printing, and rapid manufacturing (sheet metal / machining) to procure prototypes and evaluate design concepts
+        - Concepts included injection molded plastic parts and sheet metal components assembled using various methods, including ultrasonic welding and robotically dispensed adhesive
+        - Extensive experience with Computer Aided Design (Creo/Pro-Engineer) and drawing creation, including Geometric Design & Tolerance (GD&T)
+        - Utilized design of experiments (full and fractional factorial), Monte Carlo simulations and uncertainty calculations to support development/validation
+        - Participated in inter-company exchange with PCB group (6 months)
+
 
 
 - title: Honors and Awards
@@ -50,7 +100,7 @@
         - DIGI-MAT Fellowship
     - year: 2016
       items:
-        - US Patent #10,213,546 - “Devices and methods for delivering a beneficial agent to a user”
+        - [US Patent](https://patents.google.com/patent/US10213546B2/en) - “Devices and methods for delivering a beneficial agent to a user”
     - year: 2014
       items:
         - Article selected as “Highlights of 2014” – Journal of Micromechanics and Microengineering (2014)
