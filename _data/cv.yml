@@ -11,7 +11,7 @@
       institution: University of Illinois, Urbana, Illinois, USA
       year: 2024 (expected)
       description:
-        - Description 1. Advisor: Harley T. Johnson, Ph.D.
+        - Description 1. Advisor - Harley T. Johnson, Ph.D.
         - title: Description 3.
           contents:
             - Sub-description 1.
@@ -20,7 +20,7 @@
       institution: University of Wisconsin, Madison, Wisconsin, USA
       year: 2010
       description:
-        - Description 1. Advisor: Frank Pfefferkorn, Ph.D.; Kevin Turner, Ph.D.
+        - Description 1. Advisor - Frank Pfefferkorn, Ph.D.; Kevin Turner, Ph.D.
         - Description 2.
     - title: Bachelor's Degree, Mechanical Engineering
       institution: University of Wisconsin, Madison, Wisconsin, USA
