@@ -28,3 +28,4 @@ Although my current research is focused on computational methods, I did experime
 
 I received my Bachelor's and Master's degrees in mechanical engineering from the University of Wisconsin - Madison.
 I also worked for ~10 years as a design engineer on products ranging from healthcare devices to neutron generators.
+I am a Professional Engineer (P.E.) in the State of Wisconsin.
