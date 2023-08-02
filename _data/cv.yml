@@ -114,8 +114,8 @@
     - title: Computational Mechanics
       items: 
         - Atomistic Simulations
-            - Strength
-            - Plasticity
+        - Strength
+        - Plasticity
     - title: Optimization methods
       items:
         - Topology Optimization
