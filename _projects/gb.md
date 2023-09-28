@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Predicting Grain Boundary Energy from Few-Atom Simulations 
-description: Towards an Interatomic Potential for Grain Boundary Energy: Predicting Grain Boundary Energy from Few-Atom Simulations
+description: Towards an Interatomic Potential for Grain Boundary Energy - Predicting Grain Boundary Energy from Few-Atom Simulations
 img: assets/img/gb_pairplot.png
 importance: 1
 category: work
