@@ -8,7 +8,7 @@ category: work
 ---
 
 We are exploring covariance between indicator properties (lattice constant, elastic constants, etc.) and predicted energy for symmetric tilt grain boundaries. 
-The benefit of these indicator properties is that they can be calculated automatically and efficiently from few-atom simulationsand automatically within the OpenKIM framework. 
+The benefit of these indicator properties is that they can be calculated automatically and efficiently from few-atom simulations within the OpenKIM framework. 
 These indicator properties are used to predict the required scaling coefficient for an analytical grain boundary energy model (Runnels et al 2016). 
 We plan to expand this approach to other hard-to-compute properties such as material strength.
 
