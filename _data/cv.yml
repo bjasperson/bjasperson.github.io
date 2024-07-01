@@ -2,14 +2,14 @@
   type: map
   contents:
     - name: Full Name
-      value: Benjamin A. Jasperson, P.E.
+      value: Benjamin A. Jasperson, Ph.D., P.E.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD (in progress)
+    - title: Ph.D.
       institution: University of Illinois, Urbana, Illinois, USA
-      year: 2024 (expected)
+      year: 2024
       description:
         - Advisor - Harley T. Johnson, Ph.D.
     - title: Master's Degree, Mechanical Engineering
