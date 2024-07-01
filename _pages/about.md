@@ -17,9 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: True  # includes social icons at the bottom of the page
 ---
 
-I am a PhD candidate in the [Theoretical and Applied Mechanics](https://mechse.illinois.edu/graduate/graduate-degree-programs/phd-programs/phd-theoretical-and-applied-mechanics) program at the University of Illinois Urbana-Champaign.
-I am also a member of the [DIGI-MAT program](https://digi-mat.ncsa.illinois.edu/).
-I am advised by Professor Harley Johnson.
+I recently received my Ph.D. in [Theoretical and Applied Mechanics](https://mechse.illinois.edu/graduate/graduate-degree-programs/phd-programs/phd-theoretical-and-applied-mechanics) from the University of Illinois Urbana-Champaign.
+I was also a member of the [DIGI-MAT program](https://digi-mat.ncsa.illinois.edu/).
+I was advised by Professor Harley Johnson.
 
 My research focuses on optimizing designs and computational models to solve mechanics-based problems.
 My recent projects include work in topology optimization as well as atomistic methods (interatomic modeling).
