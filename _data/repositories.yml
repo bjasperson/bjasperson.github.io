@@ -2,7 +2,6 @@ github_users:
   - bjasperson
 
 github_repos:
-  - bjasperson/bjasperson.github.io
   - bjasperson/shutter_optimization
   - bjasperson/MEAM-Opt
   - bjasperson/strength_covariance
