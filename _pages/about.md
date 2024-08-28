@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: University of Illinois Urbana-Champaign   # <a href='#'>Affiliations</a>. 
+subtitle: University of Southern California   # <a href='#'>Affiliations</a>. 
 
 profile:
   align: right
   image: headshot.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Urbana, IL</p>
+    <p>Los Angeles, CA</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -17,6 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: True  # includes social icons at the bottom of the page
 ---
 
+I am a Postdoctoral Scholar - Research Associate in Professor Krishna Garikipati's group at the University of Southern California.
 I recently received my Ph.D. in [Theoretical and Applied Mechanics](https://mechse.illinois.edu/graduate/graduate-degree-programs/phd-programs/phd-theoretical-and-applied-mechanics) from the University of Illinois Urbana-Champaign.
 I was also a member of the [DIGI-MAT program](https://digi-mat.ncsa.illinois.edu/).
 I was advised by Professor Harley Johnson.
