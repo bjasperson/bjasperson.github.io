@@ -7,10 +7,7 @@ importance: 1
 category: work
 ---
 
-<figure>
-    <img style="float: right;" src="gb_pairplot.png" alt='missing' />
-    <figcaption>Pairplot of indicator properties and scaling coefficient</figcaption>
-</figure>    
+![](/assets/img/gb_pairplot.png){: .align-left}
 We are exploring covariance between indicator properties (lattice constant, elastic constants, etc.) and predicted energy for symmetric tilt grain boundaries. 
 The benefit of these indicator properties is that they can be calculated automatically and efficiently from few-atom simulations within the OpenKIM framework. 
 These indicator properties are used to predict the required scaling coefficient for an analytical grain boundary energy model (Runnels et al 2016). 
