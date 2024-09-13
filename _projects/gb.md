@@ -8,7 +8,7 @@ category: work
 ---
 
 <figure>
-    <img style="float: right;" src="assets/img/gb_pairplot.png">
+    <img style="float: right;" src="assets/img/gb_pairplot.png" alt='missing' />
     <figcaption>Pairplot of indicator properties and scaling coefficient</figcaption>
 </figure>    
 We are exploring covariance between indicator properties (lattice constant, elastic constants, etc.) and predicted energy for symmetric tilt grain boundaries. 
