@@ -18,10 +18,10 @@ We show how the reduced computational cost of the trained model allows for gener
 For more information, please see the following publication: [https://doi.org/10.1016/j.cad.2023.103665](A Dual Neural Network Approach to Topology Optimization for Thermal-Electromagnetic Device Design)
 
 <div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/to_workflow.png" title="TO workflow" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/to_pareto.png" title="Design front" class="img-fluid rounded z-depth-1" %}          
     </div>
 <div class="caption">
