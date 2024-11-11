@@ -131,30 +131,56 @@
           </header>
 
           <article>
-            <p>My research has been focused on using machine learning to perform multiphysics topology optimization of optically broadband shuttering elements. Specifically, I am exploring using coupled neural networks to replace the traditional solver calls in the optimization process. The neural networks predict device performance and optimize the distribution of material through backpropagation during neural network training. The devices utilize a phase change material (vanadium dioxide) to achieve the shuttering effect.</p>
+            <p>Traditional inverse design approaches can be costly, especially when considering dual objective function problems with multi-physics and multi-timescale considerations.
+We use a dual neural network optimization algorithm to design a 3D thermal-electromagnetic device (optical shutter).
+The devices utilize a phase change material (vanadium dioxide) to achieve the shuttering effect.
+The first neural network (convolutional neural network, CNN) acts as a surrogate model, supplementing the traditional solver calls and making predictions for device performance.
+This CNN was trained on easy-to-produce, single physics data as opposed to the more costly fully-coupled simulations that would traditionally be required.
+The second neural network optimizes the design while taking into account given manufacturing limitations (feature size).
+We show how the reduced computational cost of the trained model allows for generation of an optimized design front (Pareto front), enabling informed optimization of the device.</p>
+
+<p>For more information, please see the following publication: <a href="A%20Dual%20Neural%20Network%20Approach%20to%20Topology%20Optimization%20for%20Thermal-Electromagnetic%20Device%20Design">https://doi.org/10.1016/j.cad.2023.103665</a></p>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         <figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/shutter-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/shutter-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/shutter-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/to_workflow-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/to_workflow-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/to_workflow-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/shutter.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="shutter" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/to_workflow.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="TO workflow" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
 </figure>
 
     </div>
-</div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/to_pareto-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/to_pareto-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/to_pareto-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/to_pareto.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Design front" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+          
+    </div>
 <div class="caption">
-    Fabricated VO2 optical shutter
+    (left) Dual neural network topology optimization workflow. (right) Optimized design front across range of target extinction ratios
+</div>
 </div>
 
           </article>
