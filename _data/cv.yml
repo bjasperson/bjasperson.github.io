@@ -97,12 +97,16 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024
+      items: 
+        - Top ten finalist, USNC/TAM 5MT Virtual Thesis Competition
     - year: 2023
       items: 
+        - List of "Teachers Ranked as Excellent by Their Students," UIUC
         - Mavis Future Faculty Fellow (MF3)
     - year: 2021
       items: 
-        - DIGI-MAT Fellowship
+        - DIGI-MAT NSF Graduate Traineeship
     - year: 2016
       items:
         - US Patent - “Devices and methods for delivering a beneficial agent to a user”

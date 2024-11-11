@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Below are a few sample research projects from my time at UW-Madison and UIUC. 
+description: A few sample research projects. 
 nav: true
 nav_order: 2
 # display_categories: [work, fun]

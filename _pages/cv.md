@@ -5,5 +5,5 @@ title: cv
 nav: true
 nav_order: 4
 
-description: Full CV available on request.
+description: A partial CV. Full CV available on request.
 ---

@@ -25,5 +25,5 @@ For more information, please see the following publication: [A Dual Neural Netwo
         {% include figure.html path="assets/img/to_pareto.png" title="Design front" class="img-fluid rounded z-depth-1" %}          
     </div>
 <div class="caption">
-    (left) Dual neural network topology optimization workflow. (right) Optimized design front across range of target extinction ratios
+    (a) Dual neural network topology optimization workflow. (b) Optimized design front across range of target extinction ratios
 </div>
