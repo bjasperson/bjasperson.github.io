@@ -15,7 +15,7 @@ This CNN was trained on easy-to-produce, single physics data as opposed to the m
 The second neural network optimizes the design while taking into account given manufacturing limitations (feature size).
 We show how the reduced computational cost of the trained model allows for generation of an optimized design front (Pareto front), enabling informed optimization of the device.
 
-For more information, please see the following publication: [https://doi.org/10.1016/j.cad.2023.103665](A Dual Neural Network Approach to Topology Optimization for Thermal-Electromagnetic Device Design)
+For more information, please see the following publication: [A Dual Neural Network Approach to Topology Optimization for Thermal-Electromagnetic Device Design](https://doi.org/10.1016/j.cad.2023.103665)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
