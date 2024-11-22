@@ -1,13 +1,13 @@
 ---
 layout: page
-title: ML PDE solvers 
+title: ML-PDE solvers 
 description: 
 img: assets/img/ml_solvers_pdes.png
 importance: 1
 category: work
 ---
 During my postdoc experience, I have the opportunity to work on the latest ML techniques, including label-free ML-PDE solvers for spatiotemporal problems.
-I will have more to say as we roll out our research!
+More to come as we roll out our research!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
