@@ -2,7 +2,7 @@
 layout: page
 title: Topology Optimization using Machine Learning
 description: Topology Optimization using Machine Learning
-img: assets/img/shutter.png
+img: assets/img/to_workflow.png
 importance: 1
 category: work
 ---
