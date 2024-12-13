@@ -6,14 +6,21 @@ img: assets/img/sensor.png
 importance: 1
 category: work
 ---
-In-situ heat flux measurements for micro-pin-fin heat sinks are extremely important for performance modeling and optimization but notoriously difficult to obtain.
-My master's thesis research focused on design, fabrication and testing of a nickel-based 4-wire resistance temperature detector (RTD) heat flux sensor on an individual copper pin.
-The sensor was to be used for heat transfer studies within a micro-pin-fin heat sink (collaboration with the University of Hawaii at Manoa).
-As the research assistant on the project, I performed all stages of development.
-Sensor design included signal sensitivity analysis and heat transfer modeling in Matlab.
-Fabrication of the sensors included bulk copper substrate preparation and traditional micro-lithography techniques.
-Machining of the 3D pin structure and device segmentation was performed using micro-end-milling.
-Heat flux testing and calibration utilized an Nd-YAG laser with specialized data acquisition system acquired for the project.
+In-situ heat flux measurements for micro-pin-fin heat sinks are essential for accurate performance modeling and optimization but notoriously difficult to obtain.
+My master's thesis research focused on the design, fabrication and testing of an integrated heat flux sensor, built directly on an individual copper pin (400 microns x 400 microns x 1200 microns).
+The sensor was to be used for in-situ heat transfer studies within a micro-pin-fin heat sink as part of a collaboration with the University of Hawaii at Manoa.
+The heat flux sensor utilized two nickel-based 4-wire resistance temperature detectors (RTD).
+By directly fabricating the sensors on copper substrates, we were able to minimize the contact thermal resistance, resulting in more accurate measurements.
+
+
+As the primary research assistant on the project, I performed all stages of development.
+Initial sensor design included signal sensitivity analysis and heat transfer modeling in Matlab.
+The integrated sensor pins were fabricated on bulk copper surfaces using a combination of lithography-based microfabrication and micro end milling. 
+Copper wafers were hand polished to a flatness and roughness suitable for the necessary fabrication processes, which included photolithography, polyimide deposition via spinning, and metal deposition through physical vapor deposition.
+Once deposited, micro-end-milling was utilized for machining of the 3D pin structure and device segmentation.
+Final device calibration was performed using a tube furnace. 
+Heat flux testing utilized an Nd-YAG laser with specialized data acquisition system acquired for the project.
+ 
 
 For more information, please see the following publication: [Thin film heat flux sensors fabricated on copper substrates for thermal measurements in microfluidic environments](https://iopscience.iop.org/article/10.1088/0960-1317/24/12/125018/meta)
 
