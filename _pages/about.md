@@ -18,7 +18,7 @@ social: True  # includes social icons at the bottom of the page
 ---
 
 I am a Postdoctoral Scholar - Research Associate in Professor Krishna Garikipati's [Computational Physics Group](https://sites.usc.edu/compphys/) at the University of Southern California.
-I recently received my Ph.D. in [Theoretical and Applied Mechanics](https://mechse.illinois.edu/graduate/graduate-degree-programs/phd-programs/phd-theoretical-and-applied-mechanics) from the University of Illinois Urbana-Champaign (advisor: Professor Harley Johnson).
+I recently received my Ph.D. in [Theoretical and Applied Mechanics](https://mechse.illinois.edu/graduate/graduate-degree-programs/phd-programs/phd-theoretical-and-applied-mechanics) with a [Data Science & Engineering graduate concentration](https://cse.illinois.edu/cse-educational-programs/dse-graduate-concentration/) from the University of Illinois Urbana-Champaign (advisor: Professor Harley Johnson).
 I was also a member of the [DIGI-MAT program](https://digi-mat.ncsa.illinois.edu/).
 
 My research focuses on optimizing designs and computational models to solve mechanics-based problems.
