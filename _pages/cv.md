@@ -8,4 +8,4 @@ nav_order: 4
 
 ---
 
-[Jasperson CV](./assets/pdf/Jasperson_CV.pdf)
+[Jasperson CV](/assets/pdf/Jasperson_CV.pdf)
