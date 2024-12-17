@@ -1,9 +1,11 @@
 ---
-layout: cv
-permalink: /cv/
+layout: page
 title: cv
+permalink: /cv/
+description: Curriculum vitae
 nav: true
 nav_order: 4
 
-description: A partial CV. Full CV available on request.
 ---
+
+[Jasperson CV](./assets/pdf/Jasperson_CV.pdf)
