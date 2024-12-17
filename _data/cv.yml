@@ -16,37 +16,36 @@
       institution: University of Wisconsin, Madison, Wisconsin, USA
       year: 2010
       description:
-        - Advisor - Frank Pfefferkorn, Ph.D.; Kevin Turner, Ph.D.
+        - Advisors - Frank Pfefferkorn, Ph.D.; Kevin Turner, Ph.D.
     - title: Bachelor's Degree, Mechanical Engineering
       institution: University of Wisconsin, Madison, Wisconsin, USA
       year: 2008
       description:
         - Dean's List, all eight semesters
 
-- title: Research Experience
+- title: Professional Experience
   type: time_table
   contents:
     - title: Postdoctoral Scholar - Research Associate, Prof. Krishna Garikipati's group
       institution: University of Southern California, Los Angeles, CA, USA
       year: 2024
       description:
-        - Postdoctoral Scholar - Research Associate
-    - title: Internship, Prof. Ellad Tadmor's group
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Research Assistant, Prof. Harley Johnson's group
+      institution: University of Illinois Urbana-Champaign, Urbana, IL, USA
+      year: 2020-2024
+      description: 
+    - title: DIGI-MAT Graduate Internship, Prof. Ellad Tadmor's group
       institution: University of Minnesota Twin Cities, Minneapolis, MN, USA
       year: 2023
-      description:
-        - Developing approach to predict coefficients for grain boundary energy analytical model using canonical properties
-        - Extracted molecular simulation results in OpenKIM (interatomic potential repository) and Materials Project (repository of experimental and DFT results)
-        - Data collection and analysis performed in Python
+      description: Predicting large-scale quantities of interest (e.g., plastic flow strength, grain boundary energy) from fundamental microscopic properties.
     - title: Fellowship, National Science Foundation Research Traineeship (NRT); Research Assistant
-      institution: University of Illinois Urbana-Champaign
-      year: 2022-2023
+      institution: University of Illinois Urbana-Champaign, Urbana, IL, USA
+      year: 2021-2023
       description:
-        - Collaboration with Sandia National Laboratory 
-        - Performed optimization of optically broadband shuttering elements with optical phase change materials and structures using machine learning
-        - Used neural networks to aid in solving a dual objective function, multi-physics inverse-design problem while considering manufacturing constraints
-        - Utilized COMSOL Multiphysics with Illinois Campus Cluster Program for coupled electromagnetic/thermal finite element simulations
-        - Dataset creation/post-processing performed in Python, machine learning performed with Pytorch
     - title: Research Assistant
       institution: University of Wisconsin - Madison
       year: 2008-2010
