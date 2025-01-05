@@ -137,6 +137,26 @@
               <table class="table table-sm table-borderless">
               
                 <tr>
+                  <th scope="row">Jan 4, 2025</th>
+                  <td>
+                    The unknown accuracy of interatomic potentials (IPs) is a major source of prediction uncertainty in large-scale classical atomistic simulations.
+Many quantities of interest (QoIs), such as plastic flow strength, require simulation domains (~10^8 atoms) far too large for first-principles calculations (e.g., DFT).
+We would like to estimate this prediction uncertainty while also obtaining an estimate for what a first-principles simulation would predict if we could run it.
+
+In our recent work published in npj Computational Materials, we follow an approach similar to statistical studies in public health.
+To uncover useful correlations in our population of interest (first-principles calculations), we turn to a related dataset (IP-generated data from the OpenKIM framework) and analyze covariance between indicator properties (small-scale properties) and our QoI (plastic flow strength).
+We identify the best predictors and build a cross-scale “strength-on-predictors” regression model.
+This model is used to estimate regression error based on the available statistical pool of IP data.
+We then compute small-scale predictor properties with expensive quantum-accurate simulations and use them with the regression model to make a prediction for plastic ﬂow strength, along with statistical error bounds established from the study.
+
+This work is the result of a wonderful collaboration between the University of Minnesota (Ilia Nikiforov, Ellad Tadmor), Lawrence Livermore National Laboratory (Amit Samanta, Fei Zhou, Vincenzo Lordi, and Vasily Bulatov), and the University of Illinois Urbana-Champaign.
+
+You can find all the details in our article, <a href="https://doi.org/10.1038/s41524-024-01453-w" rel="external nofollow noopener" target="_blank">here</a> 
+Github code, <a href="https://github.com/bjasperson/strength_covariance" rel="external nofollow noopener" target="_blank">here</a>
+
+                  </td>
+                </tr>
+                <tr>
                   <th scope="row">May 28, 2024</th>
                   <td>
                     If you are heading to EMI/PMC 2024 in Chicago this week, please stop by the Buckingham Room on Wednesday, May 29 at 11:30am. 
@@ -202,7 +222,7 @@ I’m looking forward to USNCCM18 in Chicago!
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2024 Benjamin A. Jasperson. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
+        © Copyright 2025 Benjamin A. Jasperson. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
 
       </div>
     </footer>

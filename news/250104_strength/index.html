@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>240308_sandia_announcement | Benjamin A. Jasperson</title>
+    <title>250104_strength | Benjamin A. Jasperson</title>
     <meta name="author" content="Benjamin A. Jasperson">
     <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
@@ -38,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://bjasperson.github.io/news/240308_sandia_announcement/">
+    <link rel="canonical" href="https://bjasperson.github.io/news/250104_strength/">
 
     <!-- Dark Mode -->
     
@@ -128,10 +128,10 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">240308_sandia_announcement</h1>
-    <p class="post-meta">March 8, 2024</p>
+    <h1 class="post-title">250104_strength</h1>
+    <p class="post-meta">January 4, 2025</p>
     <p class="post-tags">
-      <a href="/blog/2024"> <i class="fas fa-calendar fa-sm"></i> 2024 </a>
+      <a href="/blog/2025"> <i class="fas fa-calendar fa-sm"></i> 2025 </a>
 
     </p>
   </header>
@@ -139,9 +139,20 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <p>Our recent work with Michael Wood was highlighted in the Sandia National Laboratories Collaboration Report for 2022-2023.
-You can see the article <a href="https://www.sandia.gov/research/?r3d=2022-2023-sandia-labs-academic-programs-collaboration-report#1" rel="external nofollow noopener" target="_blank">here</a>, pg 58-59.
-I have truly enjoyed being a part of this great collaboration!</p>
+      <p>The unknown accuracy of interatomic potentials (IPs) is a major source of prediction uncertainty in large-scale classical atomistic simulations.
+Many quantities of interest (QoIs), such as plastic flow strength, require simulation domains (~10^8 atoms) far too large for first-principles calculations (e.g., DFT).
+We would like to estimate this prediction uncertainty while also obtaining an estimate for what a first-principles simulation would predict if we could run it.</p>
+
+<p>In our recent work published in npj Computational Materials, we follow an approach similar to statistical studies in public health.
+To uncover useful correlations in our population of interest (first-principles calculations), we turn to a related dataset (IP-generated data from the OpenKIM framework) and analyze covariance between indicator properties (small-scale properties) and our QoI (plastic flow strength).
+We identify the best predictors and build a cross-scale “strength-on-predictors” regression model.
+This model is used to estimate regression error based on the available statistical pool of IP data.
+We then compute small-scale predictor properties with expensive quantum-accurate simulations and use them with the regression model to make a prediction for plastic ﬂow strength, along with statistical error bounds established from the study.</p>
+
+<p>This work is the result of a wonderful collaboration between the University of Minnesota (Ilia Nikiforov, Ellad Tadmor), Lawrence Livermore National Laboratory (Amit Samanta, Fei Zhou, Vincenzo Lordi, and Vasily Bulatov), and the University of Illinois Urbana-Champaign.</p>
+
+<p>You can find all the details in our article, <a href="https://doi.org/10.1038/s41524-024-01453-w" rel="external nofollow noopener" target="_blank">here</a> 
+Github code, <a href="https://github.com/bjasperson/strength_covariance" rel="external nofollow noopener" target="_blank">here</a></p>
 
     </div>
   </article>

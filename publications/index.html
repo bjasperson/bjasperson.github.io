@@ -133,6 +133,60 @@
           <article>
             <!-- _pages/publications.md -->
 <div class="publications">
+  <h2 class="year">2025</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="jaspersonCrossscaleCovarianceMaterial2025" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Cross-Scale Covariance for Material Property Prediction</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Benjamin A. Jasperson, Ilia Nikiforov, Amit Samanta, and
+          <span class="more-authors" title="click to view 4 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '4 more authors' ? 'Fei Zhou, Ellad B. Tadmor, Vincenzo Lordi, Vasily V. Bulatov' : '4 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">4 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em></em>
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://www.nature.com/articles/s41524-024-01453-w" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1038/s41524-024-01453-w"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1038/s41524-024-01453-w" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+
   <h2 class="year">2024</h2>
   <ol class="bibliography">
 <li>
@@ -187,62 +241,6 @@
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
             <p>Correlations between fundamental microscopic properties computable from first principles, which we term canonical properties, and complex large-scale quantities of interest (QoIs) provide an avenue to predictive materials discovery. We propose that such correlations can be efficiently discovered through simulations utilizing approximate interatomic potentials (IPs), which serve as an ensemble of "synthetic materials." As a proof of principle we build a regression model relating canonical properties to the symmetric tilt grain boundary (GB) energy curves in face-centered cubic crystals, characterized by the scaling factor in the universal lattice matching model of Runnels et al. (2016), which we take to be our QoI. Our analysis recovers known correlations of GB energy to other properties and discovers new ones. We also demonstrate, using available density functional theory (DFT) GB energy data, that the regression model constructed from IP data is consistent with DFT results, confirming the assumption that the IPs and DFT belong to same statistical pool and thereby validating the approach. Regression models constructed in this fashion can be used to predict large-scale QoIs based on first-principles data and provide a general method for training IPs for QoIs beyond the scope of first-principles calculations.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
-        <div id="jaspersonCrossscaleCovarianceMaterial2024" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Cross-Scale Covariance for Material Property Prediction</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Benjamin A. Jasperson, Ilia Nikiforov, Amit Samanta, and
-          <span class="more-authors" title="click to view 4 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '4 more authors' ? 'Fei Zhou, Ellad B. Tadmor, Vincenzo Lordi, Vasily V. Bulatov' : '4 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">4 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://arxiv.org/abs/2406.05146" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-arxiv-id="2406.05146"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>A simulation can stand its ground against experiment only if its prediction uncertainty is known. The unknown accuracy of interatomic potentials (IPs) is a major source of prediction uncertainty, severely limiting the use of large-scale classical atomistic simulations in a wide range of scientific and engineering applications. Here we explore covariance between predictions of metal plasticity, from 178 large-scale (\∼10^8 atoms) molecular dynamics (MD) simulations, and a variety of indicator properties computed at small-scales (\≤10^2 atoms). All simulations use the same 178 IPs. In a manner similar to statistical studies in public health, we analyze correlations of strength with indicators, identify the best predictor properties, and build a cross-scale “strength-on-predictors” regression model. This model is then used to quantify uncertainty over the statistical pool of IPs. Small-scale predictors found to be highly covariant with strength are computed using expensive quantum-accurate calculations and used to predict flow strength, within the uncertainty bounds established in our statistical study.</p>
           </div>
         </div>
       </div>
@@ -620,7 +618,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2024 Benjamin A. Jasperson. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
+        © Copyright 2025 Benjamin A. Jasperson. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
 
       </div>
     </footer>
