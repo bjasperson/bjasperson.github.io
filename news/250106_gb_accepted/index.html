@@ -10,9 +10,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Property covariance and prediction | Benjamin A. Jasperson</title>
+    <title>250106_gb_accepted | Benjamin A. Jasperson</title>
     <meta name="author" content="Benjamin A. Jasperson">
-    <meta name="description" content="Predicting Large Scale Properties from Few-Atom Simulations">
+    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
 
 
     <!-- Bootstrap & MDB -->
@@ -37,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://bjasperson.github.io/projects/gb/">
+    <link rel="canonical" href="https://bjasperson.github.io/news/250106_gb_accepted/">
 
     <!-- Dark Mode -->
     
@@ -122,71 +123,28 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <!-- page.html -->
-        <div class="post">
+        <!-- _layouts/post.html -->
 
-          <header class="post-header">
-            <h1 class="post-title">Property covariance and prediction</h1>
-            <p class="post-description">Predicting Large Scale Properties from Few-Atom Simulations</p>
-          </header>
+<div class="post">
 
-          <article>
-            <p>First principles approaches such as density functional theory (DFT) are the preferred methods for atomic scale simulations, as they are grounded in quantum theory.
-Unfortunately, computational cost limits the scale of simulations that DFT can handle, leading researchers to develop empirical approaches such as interatomic potentials (IPs).
-Getting an IP to match reference property values (calculated from first principles or experimental methods) while being transferable to different systems is a well-known challenge.</p>
+  <header class="post-header">
+    <h1 class="post-title">250106_gb_accepted</h1>
+    <p class="post-meta">January 6, 2025</p>
+    <p class="post-tags">
+      <a href="/blog/2025"> <i class="fas fa-calendar fa-sm"></i> 2025 </a>
 
-<p>Classical IPs often have a functional form based on physical intuition.
-They are typically fit against small-scale fundamental properties - which we call canonical properties - that are accessible with DFT or experimental methods. 
-The hope is that when an IP is fit to the “right” canonical properties, we can extend it to larger scale simulations and quantities of interest that are outside the reach of DFT.
-Validating this assumption, however, is tricky.
-Machine learned IPs introduce another layer of complexity, as they are traditionally trained to reproduce forces from DFT simulations and might not be fit against the “right” canonical properties.</p>
+    </p>
+  </header>
 
-<p>To help make sense of this prediction error, we can take advantage of the ensemble of IPs available in the <a href="https://openkim.org/" rel="external nofollow noopener" target="_blank">OpenKIM database</a>.
-Each uploaded IP is run through a suite of verification checks and property predictions.
-The nuances introduced through the fitting process result in different property predictions for each IP, especially for properties that the IP was not fit against.
-We argue that these IPs, with their various physics-based functional forms and fitting variations, act as a type of “synthetic material,” capturing true material property correlations. 
-We use this data to uncover correlations between properties and develop a predictive regression model, with error estimates.</p>
-
-<p>We apply this approach to predictions of plastic flow strength calculated from large-scale (~10<sup>8</sup> atoms) simulations, performed by our collaborators at Lawrence Livermore National Laboratory.
-Our data analysis reveals which canonical properties are highly correlated with plastic flow strength (e.g., vacancy migration energies, surface energies) and thus well suited for our regression model.
-We take a bold (and untested for now, see next paragraph) step and make the assumption that the IP data belongs to the same statistical pool as true materials (here, approximated by DFT).
-With this assumption, we input DFT-calculated canonical property values into our regression model and make a prediction for what plastic flow strength would be calculated, if DFT predicted forces could be used in the simulation.</p>
-
-<p>In separate work, we attempt to validate our “same statistical pool” assumption from the plastic flow strength data.
-We focus on symmetric-tilt grain boundaries (GBs), as DFT calculations are feasible for specific low-sigma configurations.
-Again, we uncover correlations between IP calculated canonical properties and GB energies, which we use to develop our predictive model.
-We then make GB energy predictions from DFT calculated canonical properties.
-This time, however, we compare our predictions with DFT calculated GB energies, demonstrating that our IP fit model does indeed capture the underlying physical relationships.</p>
-
-<p>For more information, please see the following publications: <a href="https://doi.org/10.1038/s41524-024-01453-w" rel="external nofollow noopener" target="_blank">Cross-scale covariance for material property prediction</a>, <a href="https://arxiv.org/abs/2411.16770" rel="external nofollow noopener" target="_blank">Fundamental Microscopic Properties as Predictors of Grain Boundary Energy Trends (accepted manuscript, Acta Materialia)</a></p>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
+  <article class="post-content">
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/gb_pairplot-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/gb_pairplot-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/gb_pairplot-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/gb_pairplot.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="gb" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
+    <div id="markdown-content">
+      <p>Our recent work exploring the use of fundamental microscopic properties as predictors of large-scale quantities of interest has been accepted for publication in Acta Materialia! 
+You can find the preprint <a href="https://arxiv.org/abs/2411.16770" rel="external nofollow noopener" target="_blank">here</a>.</p>
 
     </div>
+  </article>
 </div>
-<div class="caption">
-    Pairplot of indicator properties and scaling coefficient
-</div>
-
-          </article>
-
-        </div>
 
       
     </div>
