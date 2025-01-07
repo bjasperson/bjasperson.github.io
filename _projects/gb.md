@@ -34,7 +34,7 @@ Again, we uncover correlations between IP calculated canonical properties and GB
 We then make GB energy predictions from DFT calculated canonical properties.
 This time, however, we compare our predictions with DFT calculated GB energies, demonstrating that our IP fit model does indeed capture the underlying physical relationships.
 
-For more information, please see the following publications: [Cross-scale covariance for material property prediction](https://doi.org/10.1038/s41524-024-01453-w), [Fundamental Microscopic Properties as Predictors of Grain Boundary Energy Trends (accepted manuscript, Acta Materialia)](https://arxiv.org/abs/2411.16770)
+For more information, please see the following publications: [Cross-scale covariance for material property prediction](https://doi.org/10.1038/s41524-024-01453-w), [Fundamental Microscopic Properties as Predictors of Grain Boundary Energy Trends (accepted manuscript, *Acta Materialia*)](https://arxiv.org/abs/2411.16770)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
