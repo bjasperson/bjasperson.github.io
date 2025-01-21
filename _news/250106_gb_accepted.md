@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 Our recent work exploring the use of fundamental microscopic properties as predictors of large-scale quantities of interest has been accepted for publication in *Acta Materialia*! 
-You can find the preprint [here](https://arxiv.org/abs/2411.16770).
+You can find the article [here](https://doi.org/10.1016/j.actamat.2025.120722).
