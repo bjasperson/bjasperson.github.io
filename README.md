@@ -38,15 +38,13 @@ To reorder sections, change `order`. To add a section, create a new Markdown fil
 
 `publications.html` is set up to render a Zotero group library through BibBase.
 
-Use BibBase's JavaScript embed when possible. Paste the `src` URL from the BibBase script into `data-bibbase-src`:
+Use BibBase's JavaScript embed. The script tag belongs directly in `publications.html` where the publication list should appear:
 
 ```html
-data-bibbase-src="https://bibbase.org/show?bib=...&amp;jsonp=1"
+<script src="https://bibbase.org/show?bib=...&amp;jsonp=1"></script>
 ```
 
-The helper script also tolerates the full BibBase `<script src="..."></script>` snippet if it is pasted there by mistake.
-
-GitHub Pages does not run PHP. The iframe option can be used by pasting the iframe URL into `data-bibbase-iframe-src`, but the JavaScript embed is preferred.
+GitHub Pages does not run PHP, so do not use BibBase's PHP option.
 
 ## Local Preview
 
