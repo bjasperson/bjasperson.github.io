@@ -1,0 +1,1 @@
+I develop computational and machine-learning methods for mechanics-based problems, with recent work in topology optimization, interatomic modeling, cross-scale material property prediction, and ML solvers for partial differential equations.

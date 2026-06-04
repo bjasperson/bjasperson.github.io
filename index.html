@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Benjamin A. Jasperson's research website.">
+  <title>Benjamin A. Jasperson</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-current="page">
+        <span class="brand-name">Benjamin A. Jasperson</span>
+        <span class="brand-role">Computational mechanics and materials</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="cv.html">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <p class="eyebrow">Postdoctoral Scholar - Research Associate, University of Southern California</p>
+          <h1>Computational mechanics, materials modeling, and data-driven design.</h1>
+          <div class="hero-copy markdown-slot" data-md="content/home-intro.md"></div>
+          <div class="hero-actions">
+            <a class="button" href="research.html">Research</a>
+            <a class="button secondary" href="publications.html">Publications</a>
+            <a class="button secondary" href="assets/pdf/Jasperson_CV.pdf">Download CV</a>
+          </div>
+        </div>
+        <img class="portrait" src="assets/img/headshot.jpg" alt="Benjamin A. Jasperson">
+      </div>
+    </section>
+
+    <div class="page">
+      <div class="home-grid">
+        <section class="panel" aria-labelledby="about-title">
+          <h2 id="about-title">About</h2>
+          <div class="markdown-slot" data-md="content/about.md"></div>
+          <div class="profile-links" aria-label="Profile links">
+            <a href="mailto:bjaspers@usc.edu">Email</a>
+            <a href="https://scholar.google.com/citations?user=RTLcr20AAAAJ">Google Scholar</a>
+            <a href="https://orcid.org/0000-0002-3554-6391">ORCID</a>
+            <a href="https://www.linkedin.com/in/bajasperson">LinkedIn</a>
+            <a href="https://github.com/bjasperson">GitHub</a>
+          </div>
+        </section>
+
+        <aside aria-labelledby="news-title">
+          <div class="section-heading">
+            <h2 id="news-title">News</h2>
+          </div>
+          <div class="news-list markdown-slot" data-md="content/news.md" data-md-mode="news"></div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">© Benjamin A. Jasperson.</div>
+  </footer>
+  <script src="assets/js/content.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+I am a Postdoctoral Scholar - Research Associate in Professor Krishna Garikipati's [Computational Physics Group](https://sites.usc.edu/compphys/) at the University of Southern California. I recently received my Ph.D. in [Theoretical and Applied Mechanics](https://mechse.illinois.edu/graduate/graduate-degree-programs/phd-programs/phd-theoretical-and-applied-mechanics) with a [Data Science & Engineering graduate concentration](https://cse.illinois.edu/cse-educational-programs/dse-graduate-concentration/) from the University of Illinois Urbana-Champaign, advised by Professor Harley Johnson.
+
+My research focuses on optimizing designs and computational models to solve mechanics-based problems. I am especially interested in using data-driven methods and machine learning to connect small-scale simulation data with large-scale physical behavior.
+
+Before my Ph.D., I received Bachelor's and Master's degrees in mechanical engineering from the University of Wisconsin - Madison and worked for about 10 years as a design engineer on products ranging from healthcare devices to neutron generators. I am a Professional Engineer in the State of Wisconsin.
