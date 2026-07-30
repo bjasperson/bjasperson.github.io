@@ -1,6 +1,6 @@
 ---
 title: ML-PDE Solvers
-order: 30
+order: 10
 image: assets/img/ml_solvers_pdes.png
 alt: Machine learning solvers for partial differential equations
 caption: Machine learning solvers of partial differential equations.
@@ -10,6 +10,9 @@ tags:
   - Spatiotemporal models
 ---
 
-During my postdoctoral work, I have been working with recent machine-learning techniques for spatiotemporal problems, including label-free ML-PDE solvers.
+Standard numerical methods for high-dimensional, spatiotemporal mechanics problems can be computationally restrictive. My recent postdoctoral work focuses on how modern scientific machine learning can solve or accelerate mechanics and transport models while retaining physical structure and interpretability.
 
-This direction focuses on how modern learning methods can solve or accelerate mechanics and transport models while retaining physical structure and interpretability.
+**Physics-Embedded Architectures:** I investigate label-free ML-PDE solvers for spatiotemporal problems, including analyzing the accuracy and stability of spatiotemporal Vision Transformer (ViT) solvers for mechanics applications.
+
+
+**Fracture Mechanics:** I have applied these integrated ML-PDE solvers to develop global-local approaches for simulating phase-field fracture mechanics.
