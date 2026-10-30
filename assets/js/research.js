@@ -11,21 +11,35 @@
       .join("")}</div>`;
   };
 
+  const renderFigure = ({ image, alt, caption }) => `<figure>
+      <img src="${escapeHtml(image)}" alt="${escapeHtml(alt)}">
+      ${caption ? `<figcaption>${escapeHtml(caption)}</figcaption>` : ""}
+    </figure>`;
+
+  // Figures come from a `figures:` list ("path | caption" per entry) or the single image/alt/caption fields.
+  const collectFigures = (data, title) => {
+    const figures = Array.isArray(data.figures)
+      ? data.figures.map((entry) => {
+          const [image, caption = ""] = entry.split("|").map((part) => part.trim());
+          return { image, alt: caption || title, caption };
+        })
+      : [];
+    if (figures.length === 0 && data.image) {
+      figures.push({ image: data.image, alt: data.alt || title, caption: data.caption || "" });
+    }
+    return figures.filter((figure) => figure.image);
+  };
+
   const renderProject = ({ data, body }) => {
     const title = data.title || "Untitled Research Project";
-    const image = data.image || "";
-    const alt = data.alt || title;
-    const caption = data.caption || "";
+    const figures = collectFigures(data, title);
 
-    const figure = image
-      ? `<figure>
-          <img src="${escapeHtml(image)}" alt="${escapeHtml(alt)}">
-          ${caption ? `<figcaption>${escapeHtml(caption)}</figcaption>` : ""}
-        </figure>`
+    const figureColumn = figures.length
+      ? `<div class="project-figures">${figures.map(renderFigure).join("")}</div>`
       : "";
 
-    return `<article class="project">
-      ${figure}
+    return `<article class="project${figures.length ? "" : " no-figure"}">
+      ${figureColumn}
       <div>
         <h2>${escapeHtml(title)}</h2>
         <div>${renderMarkdown(body)}</div>

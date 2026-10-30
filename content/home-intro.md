@@ -1,1 +1,1 @@
-I am a computational mechanician developing foundational mathematical frameworks and multiscale solvers to predict material and structural failure in extreme, non-equilibrium environments.
+I am a computational solid mechanician who studies fatigue and fracture. I combine multiscale simulation, stochastic modeling, and scientific machine learning to predict when and how parts fail, especially in new materials and harsh environments where tests are few.
