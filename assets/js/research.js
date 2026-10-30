@@ -53,13 +53,13 @@
     if (!indexPath) return;
 
     try {
-      const indexResponse = await fetch(indexPath);
+      const indexResponse = await fetch(indexPath, { cache: "no-cache" });
       if (!indexResponse.ok) throw new Error(`Unable to load ${indexPath}`);
       const files = await indexResponse.json();
 
       const projects = await Promise.all(
         files.map(async (file) => {
-          const response = await fetch(file);
+          const response = await fetch(file, { cache: "no-cache" });
           if (!response.ok) throw new Error(`Unable to load ${file}`);
           const markdown = await response.text();
           const parsed = parseFrontMatter(markdown);

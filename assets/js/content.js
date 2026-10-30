@@ -80,7 +80,7 @@
     if (!source) return;
 
     try {
-      const response = await fetch(source);
+      const response = await fetch(source, { cache: "no-cache" });
       if (!response.ok) throw new Error(`Unable to load ${source}`);
       const markdown = await response.text();
       const { body } = parseFrontMatter(markdown);

@@ -294,7 +294,9 @@ h1 {
 
 .news-list {
   padding: 0;
-  overflow: hidden;
+  max-height: 34rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 .news-item {
