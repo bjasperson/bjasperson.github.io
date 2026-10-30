@@ -23,14 +23,16 @@ Each research Markdown file has front matter at the top:
 ---
 title: Section Title
 order: 10
-image: assets/img/example.png
-alt: Accessible image description
-caption: Short image caption.
+figures:
+  - assets/img/example.png | Short image caption.
+  - assets/img/another.png | Another caption.
 tags:
   - Tag one
   - Tag two
 ---
 ```
+
+Each `figures` entry is `path | caption`; the caption also serves as the image's alt text. Figures stack in the left column in the order listed. The older single-image fields (`image`, `alt`, `caption`) still work.
 
 To reorder sections, change `order`. To add a section, create a new Markdown file in `content/research/` and add its path to `content/research/index.json`.
 

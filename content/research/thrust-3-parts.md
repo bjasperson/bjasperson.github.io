@@ -3,6 +3,7 @@ title: Thrust 3 — What is happening in this part?
 order: 30
 figures:
   - assets/img/sensor.png | Segmented thin-film heat flux sensor.
+  - assets/img/shutter.png | Fabricated VO₂ thermal-electromagnetic shutter, with a cross-section inset.
 tags:
   - Experiments and sensing
   - Design

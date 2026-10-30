@@ -3,6 +3,7 @@ title: Thrust 1 — Which mechanisms fire, and how often?
 order: 10
 figures:
   - assets/img/gb_pairplot.png | Small-scale properties as predictors of grain boundary energy trends.
+  - assets/img/multimodal_te_plot.png | Stochastic agent populations: fraction of agents in each state over time for single, bimodal, and multimodal exposure-time distributions (five runs, ±1 standard deviation).
 tags:
   - Atomistic simulation
   - Multiscale mechanics
