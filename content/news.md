@@ -1,3 +1,6 @@
+## Nov 19, 2026
+Our preprint, [Emergent Fatigue Dynamics from Foundational Interatomic Potentials](https://arxiv.org/abs/2611.26533), is on arXiv.
+
 ## Oct 29, 2026
 
 Our preprint, [The coupled spread of information and potential-driven motion in evacuating agent populations](https://arxiv.org/abs/2610.40081), is on arXiv.
